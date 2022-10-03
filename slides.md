@@ -25,3 +25,24 @@ theme: argent
 # This is not titlepage
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel consequat diam. Pellentesque cursus sem et interdum faucibus. Aenean rutrum nulla nec cursus maximus. Pellentesque vel finibus orci. Proin velit purus, accumsan ac sodales in, consequat sed ligula. Mauris sapien sapien, dictum vitae nisl vitae, laoreet tincidunt ante. Nunc tempor tellus nisl, lacinia sodales magna posuere eu.
+
+----
+
+```js
+function deleteNode(node) {
+  let currentNode = node;
+  let nextNode    = node.next;
+  while(currentNode !== null) {
+    if (nextNode !== null) {
+      currentNode.value = nextNode.value
+      if (nextNode.next == null) {
+        currentNode.next = null
+      }
+      currentNode = currentNode.next
+      nextNode = nextNode.next
+    } else {
+      currentNode = null
+    }
+  }
+}
+```
