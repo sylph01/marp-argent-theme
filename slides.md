@@ -28,6 +28,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel consequat diam.
 
 ----
 
+# Test 日本語 mix
+
+吾輩はcatである。Nameはまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所で*meow meow*泣いていた事だけは*記憶*している。吾輩は**ここで始めてhumanというもの**を見た。しかもあとで聞くとそれ
+
+----
+
 ```js
 function deleteNode(node) {
   let currentNode = node;

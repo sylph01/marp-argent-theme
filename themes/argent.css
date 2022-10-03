@@ -10,7 +10,7 @@ section {
     background-repeat: no-repeat;
     background-size: 33%;
     color: #3F3F3F;
-    font-family: 'Titillium Web', GenShinGothic;
+    font-family: 'Titillium Web', 'Gen Shin Gothic', sans-serif;
     font-size: 30px;
 }
 
@@ -18,7 +18,7 @@ section h1,
 section h2,
 section h3,
 section h4 {
-    font-family: 'Titillium Web', GenShinGothic;
+    font-family: 'Titillium Web', 'Gen Shin Gothic', sans-serif;
 }
 
 section h1 {
