@@ -1,0 +1,48 @@
+/* @theme argent */
+
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+section {
+    background-color: #FAF9F5;
+    background-image: url('themes/argent-images/atom-30p.png');
+    background-position: left 0px bottom 0px;
+    background-repeat: no-repeat;
+    background-size: 33%;
+    color: #3F3F3F;
+    font-family: 'Titillium Web', GenShinGothic;
+    font-size: 32px;
+}
+
+section h1,
+section h2,
+section h3,
+section h4 {
+    font-family: 'Titillium Web', GenShinGothic;
+}
+
+section h1 {
+    font-size: 60px;
+    color: #202020;
+    font-weight: bold;
+}
+
+section.titlepage h1 {
+    font-size: 76px;
+}
+
+section h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+section h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+section h1 strong,
+section h2 strong,
+section h3 strong {
+    color: #4189AC;
+}
