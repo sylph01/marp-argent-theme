@@ -11,7 +11,7 @@ section {
     background-size: 33%;
     color: #3F3F3F;
     font-family: 'Titillium Web', GenShinGothic;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 section h1,
@@ -28,7 +28,7 @@ section h1 {
 }
 
 section.titlepage h1 {
-    font-size: 76px;
+    font-size: 72px;
 }
 
 section h2 {
