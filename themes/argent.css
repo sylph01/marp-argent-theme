@@ -11,7 +11,7 @@ section {
     background-size: 33%;
     color: #3F3F3F;
     font-family: 'Titillium Web', 'Gen Shin Gothic', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 section h1,
@@ -22,17 +22,25 @@ section h4 {
 }
 
 section h1 {
-    font-size: 60px;
+    font-size: 66px;
     color: #202020;
     font-weight: bold;
 }
 
 section.titlepage h1 {
-    font-size: 72px;
+    font-size: 84px;
+}
+
+section.titlepage_white h1 {
+    color: #f8f8f2;
+}
+
+section.titlepage_white {
+  color: #f8f8f2;
 }
 
 section h2 {
-    font-size: 42px;
+    font-size: 48px;
     font-weight: 600;
 }
 
@@ -45,6 +53,11 @@ section h1 strong,
 section h2 strong,
 section h3 strong {
     color: #4189AC;
+}
+
+footer {
+    color: #606060;
+    font-size: 20px;
 }
 
 /* https://github.com/highlightjs/highlight.js/blob/main/src/styles/monokai-sublime.css */
