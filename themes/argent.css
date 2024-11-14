@@ -50,6 +50,16 @@ section h3 {
     font-weight: 600;
 }
 
+section h2,
+section h3 {
+  color: #202020;
+}
+
+section.titlepage h2,
+section.titlepage h3 {
+  color: #3F3F3F;
+}
+
 section h1 strong,
 section h2 strong,
 section h3 strong {
