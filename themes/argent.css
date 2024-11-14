@@ -33,6 +33,7 @@ section.titlepage h1 {
 
 section.titlepage_white h1 {
     color: #f8f8f2;
+    font-size: 84px;
 }
 
 section.titlepage_white {
@@ -53,6 +54,25 @@ section h1 strong,
 section h2 strong,
 section h3 strong {
     color: #4189AC;
+}
+
+section.titlepage_white h1 strong,
+section.titlepage_white h2 strong,
+section.titlepage_white h3 strong {
+  color: #b7e7ed;
+}
+
+section.center {
+  text-align: center;
+}
+
+/* used in project-asmr's title page */
+section.stacking-headers h1 {
+  font-size: 80px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 footer {
